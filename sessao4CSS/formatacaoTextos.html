@@ -4,16 +4,26 @@
         <title>Formatação de texto</title>
         <meta charset="utf-8">
         <style type="text/Css">
+            div{
+                font-size: 16px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
             .craçe{
-                color: red;
-                font-size: 1.2em;
-                font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+                font-size: 1.1em;/*10% maior que o valor definido na div*/
+                text-align: justify;
+                text-indent: 40px;
+                text-decoration: line-through;
             }
 
             .catiguria{
-                color: blue;
-                font-size: 1.2em;
-                font-family: "Times New Roman", Times, serif;
+                font-size: 1.2em;/*20% maior que o valor definido na div*/
+                text-align: center;
+                font-style: italic;
+            }
+
+            .forentina{
+                font: bold 40px "Palatino Linotype", "Book Antiqua", Palatino, serif;
             }
         </style>
     </head>
@@ -38,13 +48,14 @@
                 luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin nec tincidunt quam. Mauris aliquet finibus risus
                 ut sagittis. Sed lacus justo, finibus et vehicula non, efficitur nec sem.</p>
                 
-                Donec rutrum lorem vel nibh pharetra tristique.
-                Praesent interdum leo id orci iaculis, suscipit vehicula eros tincidunt. Nullam nec dui id felis gravida vestibulum non sit
-                amet tellus. Quisque cursus, nibh sollicitudin mattis bibendum, ante felis mattis augue, non ultricies libero neque nec turpis.
-                Mauris at risus vulputate, consectetur justo in, varius orci. Pellentesque rhoncus nisl non pulvinar dictum. Mauris dapibus
-                dapibus tortor ut placerat. Aliquam sed eros lacus. Integer hendrerit turpis neque, a elementum sapien pretium at. Nullam
-                malesuada euismod cursus. Quisque aliquet sapien nec purus sagittis, a vestibulum arcu venenatis. Vivamus eu bibendum velit.
-                Ut pharetra, sem ac tristique vehicula, libero ante pretium urna, et blandit risus urna nec ex. In hac habitasse platea dictumst.
+                <p class="forentina">Donec rutrum lorem vel nibh pharetra tristique. Praesent interdum leo id orci iaculis, suscipit vehicula eros tincidunt.
+                Nullam nec dui id felis gravida vestibulum non sit amet tellus. Quisque cursus, nibh sollicitudin mattis bibendum, ante felis
+                mattis augue, non ultricies libero neque nec turpis. Mauris at risus vulputate, consectetur justo in, varius orci. Pellentesque
+                rhoncus nisl non pulvinar dictum. Mauris dapibus dapibus tortor ut placerat. Aliquam sed eros lacus. Integer hendrerit turpis
+                neque, a elementum sapien pretium at. Nullam malesuada euismod cursus. Quisque aliquet sapien nec purus sagittis, a vestibulum
+                arcu venenatis. Vivamus eu bibendum velit. Ut pharetra, sem ac tristique vehicula, libero ante pretium urna, et blandit risus
+                urna nec ex. In hac habitasse platea dictumst.</p>
+                
                 Maecenas ac ipsum ut velit elementum pulvinar blandit sit amet augue. Vestibulum eu nisi sed erat posuere aliquam. Vivamus
                 eu turpis lobortis, tincidunt ex in, sodales nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus
                 tortor vitae arcu vulputate venenatis. Fusce interdum urna et neque blandit lacinia. Sed facilisis tempor tincidunt. Pellentesque
