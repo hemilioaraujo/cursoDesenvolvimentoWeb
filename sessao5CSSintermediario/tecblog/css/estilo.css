@@ -1,0 +1,98 @@
+/*Limpar formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica,sans-serif;
+    background: #f3f3f3;
+
+}
+
+#navegacao{
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+}
+
+#area{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.verde{
+    color: #b9c941;
+}
+
+h2{
+    color: #b9c941;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    padding: 10px 0;
+}
+
+#areaPrincipal{
+    width: 750px;
+    margin: 10px auto;
+}
+
+#postagem{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dataPostagem{
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imgPostagem{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.postado{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+/*todos links*/
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/*links não visitados*/
+a:link{
+    color: #838383;
+}
+
+/*links visitados*/
+a:visited{
+    color: #838383;
+}
+
+/*cursor em cima do link*/
+a:hover{
+    color: white;
+    background: #b9c941;
+}
+
+/*momento do click*/
+a:active{
+    color: #535353;
+}
