@@ -1,13 +1,18 @@
+/*#box{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png");
+}
+
+#box h1{
+    background: rgba(255, 255, 255,0.5);
+    border-bottom: 2px solid #fff;
+}*/
+
 #box{
     width: 300px;
     height: 300px;
-    background: #b9c941;
-    padding: 20px;
-    box-sizing: border-box;
-    
-    /*
-    border-radius: 20px;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    */
+    /*background: linear-gradient(to right, red,yellow,blue, gray); de um ponto ao outro*/
+    /*background: linear-gradient(20deg, red,yellow,blue, gray); em graus*/
+    /*background: radial-gradient(red,yellow,blue, gray); radial*/
 }
