@@ -17,31 +17,62 @@
     background: radial-gradient(red,yellow,blue, gray); radial
 }*/
 
-/*Estilos aula 89*/
+/*Estilos aula 89
 #box{
     width: 400px;
     height: 400px;
     margin: 50px auto;
     padding: 8px;
     background: #009679;
-    /*definindo sombra do div
+    definindo sombra do div
     primeiro valor horizontal
     segundo vertical
     terceiro blur
     quarto spread(o quanto a sombra espalha)
-    por ultimo a cor*/
+    por ultimo a cor
     box-shadow: 10px 10px 2px black, -10px -10px 2px red;
 }
 
 #box h1{
     color: white;
     font-size: 60px;
-    /*definindo sombra do texto
+    definindo sombra do texto
     primeiro valor horizontal
     segundo vertical
     terceiro blur
-    por ultimo a cor*/
-    /*text-shadow: 5px 5px 10px black;*/
-    /*text-shadow: 20px 20px rgba(0,0,0, 0.5);*/
+    por ultimo a cor
+    text-shadow: 5px 5px 10px black;
+    text-shadow: 20px 20px rgba(0,0,0, 0.5);
     text-shadow: 4px 4px black;
+}*/
+
+/*Estilos aula 90 animações
+@keyframes animacaoBox{
+    from{
+        background: red;
+        border-radius: 0px;
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        background:yellow;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+
+
 }
+
+#boxAnimacao{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    animation-name: animacaoBox;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}*/
+
