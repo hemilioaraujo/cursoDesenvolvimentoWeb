@@ -1,0 +1,12 @@
+body{
+    background-image: url("img/back-1280x960.jpg");
+}
+
+.cabecalho{
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
