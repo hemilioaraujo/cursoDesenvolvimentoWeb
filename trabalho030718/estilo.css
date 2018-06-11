@@ -9,6 +9,11 @@ body{
     font-size: 16px;
 }
 
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .header{
     width: 100%;
     /*border-bottom: 1px solid #d8d8d8;*/
@@ -29,12 +34,25 @@ body{
 }
 
 .postagens{
-    
+    border: 1px solid blue;
 }
 
-.imagens{
-    width: 450px;
+.postImg{
+    width: 550px;
+    border:1px solid black;
 }
+
+postImg a{
+    width: 550px;
+}
+
+.postText{
+    width: 550px;
+    border:1px solid black;
+}
+
+
+
 /*todos links*/
 a{
     text-decoration: none;
