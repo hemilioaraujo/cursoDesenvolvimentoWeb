@@ -32,6 +32,9 @@ body{
     
 }
 
+.imagens{
+    width: 450px;
+}
 /*todos links*/
 a{
     text-decoration: none;
