@@ -13,6 +13,7 @@ h1{
     text-transform: uppercase;
     text-align: center;
     margin: 10px;
+    text-shadow: 2px 2px 8px #de1f26;
 }
 
 .header{
