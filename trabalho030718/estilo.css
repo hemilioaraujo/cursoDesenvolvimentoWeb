@@ -6,12 +6,13 @@
 body{
     background: #fff;
     font-family: 'Trebuchet MS', Helvetica,sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h1{
     text-transform: uppercase;
     text-align: center;
+    margin: 10px;
 }
 
 .header{
@@ -28,30 +29,28 @@ h1{
     top: 0;
 }
 
+
 .areaPrincipal{
     width: auto;
     margin: 10px 10px;
 }
 
-.postagens{
-    border: 1px solid blue;
+.imgLeft{
+    float: left;
+    width: 45%;
+    border: 1px dotted blue;
 }
 
-.postImg{
-    width: 550px;
-    border:1px solid black;
+.textoRight{
+    float: right;
+    width: 45%;
+    border: 1px dotted red;
 }
 
-postImg a{
-    width: 550px;
+.home{
+    position: fixed;
+    bottom: 100px 100px;
 }
-
-.postText{
-    width: 550px;
-    border:1px solid black;
-}
-
-
 
 /*todos links*/
 a{
@@ -81,3 +80,6 @@ a:active{
     color: #535353;
 }
 
+.clear{
+    clear: both;
+}
