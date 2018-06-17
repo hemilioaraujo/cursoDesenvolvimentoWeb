@@ -35,6 +35,8 @@ h1{
     border: 1px solid green;
 }
 
+
+
 .imgLeft{
     float: left;
     width: 34%;
@@ -45,12 +47,16 @@ h1{
 .textoRight{
     float: right;
     width: 48%;
-    padding: 20px 10px;
+    height: 330px;
+    padding: 1%;
     border: 1px dotted red;
     margin: 0 5% 0 0;
 }
 
-
+.textoRight p{
+    text-align: left;
+    margin: 0 0 10px 0;   
+}
 .menu{
     position:fixed;
     z-index:999; 
