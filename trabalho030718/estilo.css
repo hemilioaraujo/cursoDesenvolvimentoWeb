@@ -12,7 +12,7 @@ body{
 h1{
     text-transform: uppercase;
     text-align: center;
-    margin: 10px;
+    margin: 50px;
     text-shadow: 0 0 8px #de1f26;
     color: #fff;
 }
@@ -32,56 +32,41 @@ h1{
 .areaPrincipal{
     width: auto;
     display: table;
-    border: 1px solid green;
 }
 
 
 
 .imgLeft{
     float: left;
-    width: 34%;
-    border: 1px dotted blue;
-    margin: 0 0 0 5%;
+    width: 40%;
+    margin: 0 0 0 3%;
+    border: 1px solid green;
 }
 
 .textoRight{
     float: right;
     width: 48%;
-    height: 330px;
+    height: 390px;
     padding: 1%;
-    border: 1px dotted red;
-    margin: 0 5% 0 0;
+    margin: 0 3% 0 0;
+    border: 1px solid green;
 }
 
 .textoRight p{
     text-align: left;
-    margin: 0 0 10px 0;   
+    margin: 0 0 10px 0;  
+    text-align: justify; 
 }
-.menu{
+
+.home{
     position:fixed;
     z-index:999; 
-    right:30px; 
+    right:5px; 
     bottom:30px;
     overflow:hidden;
     padding:6px;
   }
 
-/*todos links*/
-a{
-    text-decoration: none;
-    font-size: 18px;
-    padding: 5px 10px;
-}
-
-/*links não visitados*/
-a:link{
-    color: #838383;
-}
-
-/*links visitados*/
-a:visited{
-    color: #838383;
-}
 
 /*cursor em cima do link*/
 a:hover{
@@ -91,6 +76,42 @@ a:hover{
 
 /*momento do click*/
 a:active{
+    color: #535353;
+    background: #535353;
+}
+
+
+
+
+
+
+
+
+/*todos links da parte de navegação*/
+.navegacao a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+/*links não visitados*/
+.navegacao a:link{
+    color: #838383;
+}
+
+/*links visitados*/
+.navegacao a:visited{
+    color: #838383;
+}
+
+/*cursor em cima do link*/
+.navegacao a:hover{
+    color: white;
+    background: #de1f26;
+}
+
+/*momento do click*/
+.navegacao a:active{
     color: #535353;
 }
 
