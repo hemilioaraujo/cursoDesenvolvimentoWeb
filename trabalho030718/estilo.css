@@ -17,11 +17,20 @@ h1{
     color: #fff;
 }
 
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 0 0 8px #de1f26;
+    color: #fff;
+}
+
 .header{
     width: 100%;
     top: 0;
     margin: 0;
 }
+
 
 .navegacao{
     background: #fff;
@@ -34,28 +43,38 @@ h1{
     display: table;
 }
 
-
-
 .imgLeft{
     float: left;
     width: 40%;
     margin: 0 0 0 3%;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
+    text-align: center;
+}
+
+.imgLeft img{
+    width: 100%;
+    border: 3px inset lightgray;
 }
 
 .textoRight{
     float: right;
     width: 48%;
-    height: 390px;
-    padding: 1%;
     margin: 0 3% 0 0;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .textoRight p{
-    text-align: left;
     margin: 0 0 10px 0;  
-    text-align: justify; 
+    text-align: justify;
+    text-indent: 5%; 
+}
+
+.textoRight ul{
+    list-style : inside url(img/icone.png);
+}
+
+.textoRight li{
+    margin: 0 0 40px 0;
 }
 
 .home{
