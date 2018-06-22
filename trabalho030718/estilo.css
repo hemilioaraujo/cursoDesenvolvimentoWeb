@@ -13,15 +13,16 @@ h1{
     text-transform: uppercase;
     text-align: center;
     margin: 50px;
-    text-shadow: 0 0 8px #de1f26;
+    text-shadow: 0 0 8px black;
     color: #fff;
+    background: #de1f26;
 }
 
 h4{
     text-transform: uppercase;
     text-align: center;
     margin: 10px 0;
-    text-shadow: 0 0 8px #de1f26;
+    text-shadow: 0 0 8px black;
     color: #fff;
 }
 
@@ -47,6 +48,8 @@ h4{
     float: left;
     width: 40%;
     margin: 0 0 0 3%;
+    font-style: italic;
+    
     /*border: 1px solid green;*/
     text-align: center;
 }
@@ -54,6 +57,11 @@ h4{
 .imgLeft img{
     width: 100%;
     border: 3px inset lightgray;
+}
+
+.imgLeft a{
+    text-decoration: none;
+    color: #de1f26;
 }
 
 .textoRight{
@@ -74,7 +82,7 @@ h4{
 }
 
 .textoRight li{
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
 }
 
 .home{
